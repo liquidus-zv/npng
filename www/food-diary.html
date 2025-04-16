@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food Diary</title>
+  <link rel="stylesheet" href="css/food-diary.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Back Button -->
+    <button class="back-button" onclick="goBack()">← Back</button>
+
+    <h1 class="header">Food Diary</h1>
+
+    <!-- Search/Add Items Card -->
+    <div class="card">
+      <div class="search-section">
+        <input id="foodInput" type="text" placeholder="Search or add food item..." class="search-input">
+        <button class="add-button" onclick="addFood()">Add</button>
+      </div>
+    </div>
+
+    <!-- Recent Entries Card -->
+    <div class="card scrollable-card">
+      <h2>Recent Entries</h2>
+      <ul id="entryList" class="entry-list">
+        <li>
+          🥗 Chicken Salad — 350 cal 
+          <button class="edit-button" onclick="editEntry(this)">Edit</button>
+        </li>
+        <li>
+          🍎 Apple — 95 cal 
+          <button class="edit-button" onclick="editEntry(this)">Edit</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Nutrition + Deficit Section -->
+    <div class="card">
+      <h2>Nutrient Reminders</h2>
+      <ul class="reminders">
+        <li>🧠 Low on Iron</li>
+        <li>💪 Need more Protein</li>
+        <li>🔥 Burn 220 more calories today</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="js/food-diary.js"></script>
+</body>
+</html>

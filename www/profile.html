@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profile</title>
+  <link rel="stylesheet" href="css/profile.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Back Button -->
+    <button class="back-button" onclick="goBack()">← Back</button>
+
+    <!-- Profile Card -->
+    <div class="card profile-card" onclick="goToEditProfile()">
+      <img src="img/logo.png" alt="Profile Picture" class="profile-img" />
+      <div class="profile-info">
+        <h2>Jane Doe</h2>
+        <p>Weight: 145 lbs</p>
+        <p>Height: 5'6"</p>
+        <p>Goal: Maintain</p>
+      </div>
+    </div>
+
+    <!-- Activity Summary -->
+    <div class="card">
+      <h2>Activity Summary</h2>
+      <ul class="summary-list">
+        <li>Calories Consumed: 1600 kcal</li>
+        <li>Calories Burned: 500 kcal</li>
+        <li>Steps Today: 7,200</li>
+      </ul>
+    </div>
+
+    <!-- Nutrition Goals -->
+    <div class="card">
+      <h2>Nutrition Goals</h2>
+      <ul class="summary-list">
+        <li>Protein: 120g / 150g</li>
+        <li>Carbs: 180g / 220g</li>
+        <li>Fats: 60g / 70g</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="js/profile.js"></script>
+</body>
+</html>
