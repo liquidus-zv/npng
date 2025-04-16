@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.npng.fitness" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>NpNg</name>
-    <description>Sample Apache Cordova App</description>
-    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
-        Apache Cordova Team
+    <description> 
+        A fitness app that helps you track your workouts and progress.
+    </description>
+    <author email="zvalentin@spartans.nsu.edu">
+        Valentin Z.
     </author>
     <content src="index.html" />
     <allow-intent href="http://*/*" />

@@ -1,1 +1,2 @@
-# npng
+# made with Apache cordova. functional on android, unable to compile for ios on my end. If you don't want to set up to test on mobile, cordova is a web wrapper, everything is html/css/js, so you can start on the index page in a web browser and it works the exact same.
+# also included the current build .apk as of this morning, but it is not signed or anything.
